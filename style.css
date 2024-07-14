@@ -1,0 +1,59 @@
+table {
+
+  background-color: #fafafa;
+  text-align: center;
+
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 0 2px 12px rgba(107, 107, 107, 0.3);
+}
+
+tr:nth-child(even) {
+  background-color: #fceaff;
+}
+
+td {
+  font-family: Verdana, sans-serif;
+}
+
+th {
+  padding: 25px 25px;
+  background-color: #4F6AA1;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-family: Tahoma, sans-serif;
+}
+
+img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+td:nth-child(2) {
+  text-align: right;
+}
+
+td:nth-child(3) {
+  text-align: left;
+  font-style: italic;
+    font-weight: 700;
+}
+
+.status {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: #fafafa;
+  width: 120px;
+}
+.unpaid {
+  background-color: #ff1744;
+}
+
+.paid {
+  background-color: #43a047;
+}
+
+.hold {
+  background-color: #ff9800;
+}
